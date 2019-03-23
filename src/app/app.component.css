@@ -1,0 +1,35 @@
+select {
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border: 2px solid #111;
+    background: transparent;
+    width: auto;
+    padding: 5px 30px 5px 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 34px;
+    background: aliceblue;   
+  }
+ 
+#tCalendar {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 30%;
+}
+
+#tCalendar th {
+    background-color: cadetblue;
+    color: #ddd;
+}
+  
+#tCalendar td, #tCalendar th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+  /*
+#tCalendar tr:nth-child(even){background-color: #f2f2f2;}
+  
+#tCalendar tr:hover {background-color: #ddd;}
+  */

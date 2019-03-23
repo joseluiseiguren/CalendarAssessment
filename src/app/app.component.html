@@ -1,0 +1,30 @@
+<select #selectMes (change)="changeMonth(selectMes.value)">
+  <option *ngFor="let month of months" [value]="month.numero" [selected]="month.numero == actualDate.getMonth()+1">
+      {{month.nombre}}
+  </option>
+</select>
+
+<select #selectAnio (change)="changeYear(selectAnio.value)">
+  <option *ngFor="let year of years" [value]="year" [selected]="year == actualDate.getFullYear()">
+      {{year}}
+  </option>
+</select>
+
+
+<table id="tCalendar">
+  <thead>
+    <tr>
+      <th *ngFor="let wd of weekDays">
+        {{wd}}
+      </th> 
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of days">
+      <td *ngFor="let day of data">
+        {{day}}        
+      </td>
+    </tr>
+  </tbody>
+ 
+</table>
