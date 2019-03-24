@@ -22,14 +22,29 @@ select {
     background-color: cadetblue;
     color: #ddd;
 }
-  
+
 #tCalendar td, #tCalendar th {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
+  border: 1px solid #ddd;
+  padding-bottom: 1px;
+  padding-top: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
 }
-  /*
-#tCalendar tr:nth-child(even){background-color: #f2f2f2;}
-  
-#tCalendar tr:hover {background-color: #ddd;}
-  */
+
+#tCalendar th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.today {
+  color: red
+}
+
+.aditionalInfo {
+  color: darkgray;
+  font-size: 10px;
+  padding-top: 5px;
+
+}
