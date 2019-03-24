@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\app"
   ],
-  "SelectedNode": "\\.angular-cli.json",
+  "SelectedNode": "\\src\\app\\WeatherInfo.ts",
   "PreviewInSolutionExplorer": false
 }
