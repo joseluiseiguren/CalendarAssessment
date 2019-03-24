@@ -20,7 +20,5 @@ export class WeatherService {
     return this._http.get<any>(url)
       //.delay(3000)
       .do(data => { } );
-  }
-  
-
+  }  
 }
